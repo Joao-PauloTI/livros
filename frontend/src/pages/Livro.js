@@ -75,6 +75,7 @@ class Livro extends Component {
                             <TextField
                                 label="Nome do Livro"
                                 variant="outlined"
+                                required="true"
                                 fullWidth
                                 margin="normal"
                                 onChange={(e) => this.onChangeNomeLivro(e)}
@@ -87,6 +88,7 @@ class Livro extends Component {
                             <TextField
                                 label="Autor"
                                 variant="outlined"
+                                required="true"
                                 fullWidth
                                 margin="normal"
                                 onChange={(e) => this.onChangeAuthor(e)}
@@ -99,6 +101,7 @@ class Livro extends Component {
                             <TextField
                                 label="Número de Páginas"
                                 variant="outlined"
+                                required="true"
                                 fullWidth
                                 margin="normal"
                                 onChange={(e) => this.onChangeNumeroPaginas(e)}
@@ -111,6 +114,7 @@ class Livro extends Component {
                             <TextField
                                 label="Editora"
                                 variant="outlined"
+                                required="true"
                                 fullWidth
                                 margin="normal"
                                 onChange={(e) => this.onChangeEditora(e)}
@@ -123,6 +127,7 @@ class Livro extends Component {
                             <TextField
                                 label="ISBN"
                                 variant="outlined"
+                                required="true"
                                 fullWidth
                                 margin="normal"
                                 onChange={(e) => this.onChangeIsbn(e)}
